@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+/*BODY*/
+.headerproductos {
+  text-align: center;
+  background-color: #ffc107;
+  border-radius: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.productos {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.productos .grid-text {
+  text-align: center;
+}
+
+/*HEADER ESTILOS*/
+.abrir-menu {
+  display: none;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 50px;
+  color: #ffc107;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+/*FOOTER*/
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+  height: 0;
+}
+.map-responsive .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*CONTACTO ESTILOS*/
+.contacto-formulario {
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  margin-top: 5px;
+  max-width: 1000px;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.contacto-formulario h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.contacto-formulario .texto-formulario {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.contacto-formulario input,
+.contacto-formulario textarea {
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 15px;
+}
+.contacto-formulario textarea {
+  min-height: 150px;
+  max-height: 150px;
+  max-width: 100%;
+}
+.contacto-formulario .botones {
+  background: black;
+  border-radius: 1px;
+  border: 2px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.contacto-formulario .botones:hover {
+  cursor: pointer;
+  background: #ffc107;
+}
+.contacto-formulario .parrafoscontacto {
+  text-align: justify;
+}
+.contacto-formulario .contactoimg {
+  width: 100%;
+  box-shadow: 0px 0px 3px black;
+  border: 2px;
+  border-radius: 5px;
+}
+
+/*OUTLET*/
+section article {
+  width: 100%;
+}
+
+#sortby {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.block-title {
+  color: #ffc107;
+}
+
+.item {
+  display: flex;
+  margin-top: 40px;
+}
+
+.preview a img {
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+a span {
+  color: black;
+}
+
+h3 a {
+  color: black;
+  font-size: 22px;
+}
+
+/*NOSOTROS*/
+/*Formulario Trabaja con nosotros*/
+#italic {
+  color: #ffc107;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.hiringimg {
+  width: 100%;
+}
+
+/*nuestra empresa*/
+.center {
+  display: inline-block;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
