@@ -6,14 +6,34 @@
   
 }
 
+
+/*VARIABLES SCSS*/
+
+
+
+$color-principal: #ffc107;
+$color-blanco: #FFFFFF;
+$color-negro: #000000;
+
 /*BODY*/
+
 
 .headerproductos {
   text-align: center;
-  background-color: #ffc107;
+  background-color: $color-principal;
   border-radius: 12px;
   padding: 0;
   margin: 0;
+}
+
+
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .productos {
@@ -28,6 +48,11 @@
   }
 }
 
+
+
+
+
+
 /*HEADER ESTILOS*/
 
 .abrir-menu {
@@ -38,7 +63,7 @@
   font-size: 25px;
   margin-left: 40px;
   margin-right: 50px;
-  color: #ffc107;
+  color: $color-principal;
 }
 
 .carousel-item {
@@ -71,10 +96,10 @@
 .contacto-formulario {
   margin: auto;
   padding: 30px;
-  background-color: white;
+  background-color: $color-blanco;
   margin-top: 5px;
   max-width: 1000px;
-  box-shadow: 0px 0px 3px black;
+  box-shadow: 0px 0px 3px $color-negro;
   border-radius: 6px;
   box-sizing: border-box;
 
@@ -93,10 +118,10 @@
   input,
   textarea {
     font-size: 16px;
-    color: black;
+    color: $color-negro;
     width: 100%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $color-negro;
     outline: none;
     padding: 15px;
   }
@@ -108,7 +133,7 @@
   }
 
   .botones {
-    background: black;
+    background: $color-negro;
     border-radius: 1px;
     border: 2px;
     color: white;
@@ -132,7 +157,7 @@
 
   .contactoimg {
     width: 100%;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px $color-negro;
     border: 2px;
     border-radius: 5px;
   }
@@ -153,7 +178,7 @@ section {
 }
 
 .block-title {
-  color: #ffc107;
+  color: $color-principal;
 }
 
 .item {
@@ -172,13 +197,13 @@ section {
 a {
   text-decoration: none;
   span {
-    color: black;
+    color: $color-negro;
   }
 }
 
 h3 {
   a {
-    color: black;
+    color: $color-negro;
     font-size: 22px;
   }
 }
@@ -188,7 +213,7 @@ h3 {
 /*Formulario Trabaja con nosotros*/
 
 #italic {
-  color: #ffc107;
+  color: $color-principal;
   font-style: italic;
   font-size: 25px;
 }
@@ -197,7 +222,18 @@ h3 {
   width: 100%;
 }
 
-/*nuestra empresa*/
+/*nuestras marcas*/
+
+.text-marcas {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.imgs-marcas {
+  display: inline-block;
+  width: 100%;
+}
 
 .center {
   display: inline-block;
